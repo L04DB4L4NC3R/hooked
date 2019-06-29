@@ -83,28 +83,35 @@ hooks:
 <br>
 <br>
 
-<h3 align="center">List of hooks supported</h3>
-
 <div align = "center">
+    
+### List of hooks supported
+
+<br>
+
 
 | hook | description    |      further reading |    
 |:----:|:----------------------------------------:|:------:|
-| applypatch-msg        | A script executed before | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--applypatch-msg.sample) |
-| pre-applypatch        | A script executed before patch is applied | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L74) |
-| post-applypatch       | A script executed after patch is applied | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L74) |
-| pre-commit            | A script executed before `git commit`| [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--pre-commit.sample) | 
-| prepare-commit-msg    | A script executed before when preparing git commit message | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--prepare-commit-msg.sample) |
-| commit-msg            | A script executed before `git commit -m` | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--commit-msg.sample) |
-| post-commit           | A script executed after `git commit`   | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L142) |
-| pre-rebase            | A script executed before rebase        | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--pre-rebase.sample) |
-| post-checkout         | A script executed after checkout       | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L160) |
-| post-merge            | A script executed after merge          | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L178) |
-| pre-receive           | A script executed before receive       | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L221) |
-| update                | A script executed at the time of updating | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--update.sample) |
-| post-receive          | A script executed after receive         | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L295) |
-| post-update           | A script executed after update          | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--post-update.sample) |
-| pre-auto-gc           | A script executed by git receive pack when invoked after git push | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L387) |
-| post-rewrite          | A script executed after rewrite         | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L394) |
-| pre-push              | A script executed before `git push`     | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L192) |
+| applypatch-msg        | A script executed before | [view sample/documentation](https://github.com/git/git/blob/master/templates/hooks--applypatch-msg.sample) |
+| pre-applypatch        | A script executed before patch is applied | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L74) |
+| post-applypatch       | A script executed after patch is applied | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L74) |
+| pre-commit            | A script executed before `git commit`| [view sample/documentation](https://github.com/git/git/blob/master/templates/hooks--pre-commit.sample) | 
+| prepare-commit-msg    | A script executed before when preparing git commit message | [view sample/documentation](https://github.com/git/git/blob/master/templates/hooks--prepare-commit-msg.sample) |
+| commit-msg            | A script executed before `git commit -m` | [view sample/documentation](https://github.com/git/git/blob/master/templates/hooks--commit-msg.sample) |
+| post-commit           | A script executed after `git commit`   | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L142) |
+| pre-rebase            | A script executed before rebase        | [view sample/documentation](https://github.com/git/git/blob/master/templates/hooks--pre-rebase.sample) |
+| post-checkout         | A script executed after checkout       | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L160) |
+| post-merge            | A script executed after merge          | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L178) |
+| pre-receive           | A script executed before receive       | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L221) |
+| update                | A script executed at the time of updating | [view sample/documentation](https://github.com/git/git/blob/master/templates/hooks--update.sample) |
+| post-receive          | A script executed after receive         | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L295) |
+| post-update           | A script executed after update          | [view sample/documentation](https://github.com/git/git/blob/master/templates/hooks--post-update.sample) |
+| pre-auto-gc           | A script executed by git receive pack when invoked after git push | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L387) |
+| post-rewrite          | A script executed after rewrite         | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L394) |
+| pre-push              | A script executed before `git push`     | [view sample/documentation](https://github.com/git/git/blob/master/Documentation/githooks.txt#L192) |
 
 </div>
+
+<br>
+
+Made with :heart: and :octocat: by Angad Sharma
