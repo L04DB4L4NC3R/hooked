@@ -22,6 +22,67 @@
 
 <br>
 
+### Sample configuration files
+Sample configurations can be written in `yaml` as well as `json`. Take a look
+
+<br>
+
+<details>
+<summary align="center">YAML configuration is written as <b>.hooked.yaml</b> </summary>
+
+```yaml
+version: 1.0
+hooks:
+  pre-commit:
+    env_file: .env
+    commands:
+      - "cat .hooked.log >> pre-commit hook'"
+      - "cat .hooked.log >> 'hooked!'"
+  post-commit:
+    environment:
+      - HOST: localhost
+    commands:
+      - "cat .hooked.log >> post-commit hook'"
+      - "cat .hooked.log >> 'hooked!'"
+
+```
+
+</details>
+
+
+<details>
+<summary align="center">JSON configuration is written as <b>.hooked.json</b> </summary>
+
+```json
+{
+	"version": 1,
+	"hooks": {
+		"pre-commit": {
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> pre-commit hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-commit": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"commands": [
+				"cat .hooked.log >> post-commit hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		}
+	}
+}
+```
+</details>
+
+<br>
+<br>
+
 <h3 align="center">List of hooks supported</h3>
 
 <div align = "center">
@@ -47,71 +108,3 @@
 | pre-push              | A script executed before `git push`     |
 
 </div>
-
-<br>
-<br>
-
-### Sample configuration files
-Sample configurations can be written in `yaml` as well as `json`. Take a look
-
-<br>
-
-<details>
-<summary align="center">YAML configuration is written as <b>.hooked.yaml</b> </summary>
-
-```yaml
-version: 1.0
-hooks:
-  post-commit:
-    env_file: .env
-    commands:
-      - "cat .hooked.log >> 'post-commit hook'"
-      - "cat .hooked.log >> 'hooked!'"
-  pre-receive:
-    environment:
-      - HOST:localhost
-    commands:
-      - "cat .hooked.log >> 'pre-receive hook'"
-      - "cat .hooked.log >> 'hooked!'"
-  pre-push:
-    commands:
-      - "cat .hooked.log >> 'pre-push hook'"
-      - "cat .hooked.log >> 'hooked!'"
-```
-
-</details>
-
-
-<details>
-<summary align="center">JSON configuration is written as <b>.hooked.json</b> </summary>
-
-```json
-{
-	"version": 1,
-	"hooks": {
-		"post-commit": {
-			"env_file": ".env",
-			"commands": [
-				"cat .hooked.log >> 'post-commit hook'",
-				"cat .hooked.log >> 'hooked!'"
-			]
-		},
-		"pre-receive": {
-			"environment": [
-				"HOST:localhost"
-			],
-			"commands": [
-				"cat .hooked.log >> 'pre-receive hook'",
-				"cat .hooked.log >> 'hooked!'"
-			]
-		},
-		"pre-push": {
-			"commands": [
-				"cat .hooked.log >> 'pre-push hook'",
-				"cat .hooked.log >> 'hooked!'"
-			]
-		}
-	}
-}
-```
-</details>

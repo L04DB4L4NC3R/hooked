@@ -1,0 +1,197 @@
+{
+	"version": 1,
+	"hooks": {
+		"pre-applypatch": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> pre-applypatch hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-applypatch": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> post-applypatch hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"pre-commit": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> pre-commit hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"prepare-commit-msg": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> prepare-commit-msg hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"commit-msg": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> 'commit-msg hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-commit": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> post-commit hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"pre-rebase": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> pre-rebase hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-checkout": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> post-checkout hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-merge": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> post-merge hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"pre-receive": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> pre-receive hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"update": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> 'update hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-receive": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> post-receive hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-update": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> post-update hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"pre-auto-gc": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> pre-auto-gc hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"post-rewrite": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> post-rewrite hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		},
+		"pre-push": {
+			"environment": [
+				{
+					"HOST": "localhost"
+				}
+			],
+			"env_file": ".env",
+			"commands": [
+				"cat .hooked.log >> pre-push hook'",
+				"cat .hooked.log >> 'hooked!'"
+			]
+		}
+	}
+}
