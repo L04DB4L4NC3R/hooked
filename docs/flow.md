@@ -1,17 +1,17 @@
 ### Flow 
 
-- rename hook files
-- change mode
-- parse config (yaml or json)
-- append arguments at the end 
-
+- Rename hook files
+- Change mode
+- Parse config (yaml or json)
+- Append arguments at the end 
+- Handle webhooks
+- Lambda functions
 
 ### Tools
 
 - Bazel testing
-- cmake builds
+- cmake builds and CMakeLists
 - .clang-format for formatting (using clang)
-- CMakeLists.txt for cmake
 - appveyor.yml for ci with bazel
 - .editorconfig 
 
@@ -25,4 +25,3 @@
 - Cmake [here](https://cmake.org/cmake-tutorial/)
 - Editorconfig [here](https://editorconfig.org/)
 - Design principles [here](https://sourcemaking.com/design_patterns)
-
