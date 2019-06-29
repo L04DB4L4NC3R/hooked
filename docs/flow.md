@@ -24,4 +24,5 @@
 - Reference [lib](https://github.com/google/googletest/tree/master/googletest)
 - Cmake [here](https://cmake.org/cmake-tutorial/)
 - Editorconfig [here](https://editorconfig.org/)
+- Hooks [here](https://githooks.com/)
 - Design principles [here](https://sourcemaking.com/design_patterns)
