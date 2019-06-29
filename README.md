@@ -87,24 +87,24 @@ hooks:
 
 <div align = "center">
 
-| hook | description    |          
-|:----:|:----------------------------------------:|
-| applypatch-msg        | A script executed before         |
-| pre-applypatch        | A script executed before patch is applied |
-| post-applypatch       | A script executed after patch is applied |
-| pre-commit            | A script executed before `git commit`|
-| prepare-commit-msg    | A script executed before when preparing git commit message      |
-| commit-msg            | A script executed before `git commit -m`         |
-| post-commit           | A script executed after `git commit`   |
-| pre-rebase            | A script executed before rebase        |
-| post-checkout         | A script executed after checkout       |
-| post-merge            | A script executed after merge          |
-| pre-receive           | A script executed before receive       |
-| update                | A script executed at the time of updating                |
-| post-receive          | A script executed after receive         |
-| post-update           | A script executed after update          |
-| pre-auto-gc           | A script executed by git receive pack when invoked after git push        |
-| post-rewrite          | A script executed after rewrite         |
-| pre-push              | A script executed before `git push`     |
+| hook | description    |      further reading |    
+|:----:|:----------------------------------------:|:------:|
+| applypatch-msg        | A script executed before | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--applypatch-msg.sample) |
+| pre-applypatch        | A script executed before patch is applied | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L74) |
+| post-applypatch       | A script executed after patch is applied | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L74) |
+| pre-commit            | A script executed before `git commit`| [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--pre-commit.sample) | 
+| prepare-commit-msg    | A script executed before when preparing git commit message | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--prepare-commit-msg.sample) |
+| commit-msg            | A script executed before `git commit -m` | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--commit-msg.sample) |
+| post-commit           | A script executed after `git commit`   | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L142) |
+| pre-rebase            | A script executed before rebase        | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--pre-rebase.sample) |
+| post-checkout         | A script executed after checkout       | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L160) |
+| post-merge            | A script executed after merge          | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L178) |
+| pre-receive           | A script executed before receive       | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L221) |
+| update                | A script executed at the time of updating | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--update.sample) |
+| post-receive          | A script executed after receive         | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L295) |
+| post-update           | A script executed after update          | [view sample/documentation on the hook](https://github.com/git/git/blob/master/templates/hooks--post-update.sample) |
+| pre-auto-gc           | A script executed by git receive pack when invoked after git push | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L387) |
+| post-rewrite          | A script executed after rewrite         | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L394) |
+| pre-push              | A script executed before `git push`     | [view sample/documentation on the hook](https://github.com/git/git/blob/master/Documentation/githooks.txt#L192) |
 
 </div>
