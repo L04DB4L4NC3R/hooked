@@ -25,4 +25,6 @@
 - Cmake [here](https://cmake.org/cmake-tutorial/)
 - Editorconfig [here](https://editorconfig.org/)
 - Hooks [here](https://githooks.com/)
+- GCC 9 installation [here](https://solarianprogrammer.com/2016/10/07/building-gcc-ubuntu-linux/)
+- GCC 9 features [here](https://www.gnu.org/software/gcc/gcc-9/changes.html)
 - Design principles [here](https://sourcemaking.com/design_patterns)
