@@ -1,8 +1,10 @@
 #include <iostream>
-#include "./include/constants.h"
-using namespace std;
+#include "./include/hooksdef.h"
 
 int main() {
-	cout<<HOOKS_PATH;
+	std::cout<<HOOKS_PATH<<std::endl;
+	int l = sizeof(HOOKS_SUPPORTED)/sizeof(HOOKS_SUPPORTED[0]);
+	for (int i=0;i<l;i++)
+		std::cout<<HOOKS_SUPPORTED[i]<<std::endl;
 	return 0;
 }
