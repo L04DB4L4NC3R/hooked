@@ -18,6 +18,7 @@
 - [X] Trigger builds
 - [X] Trigger cleanup
 - [X] Deploy to kubernetes 
+- [X] QA
 - [X] Pretty much anything you want to do
 
 <br>
