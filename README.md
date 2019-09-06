@@ -4,6 +4,8 @@
 <h1 align="center">hooked</h1>
 <h2 align="center">A github hooks manager</h2>
 
+`STATUS`: In progress
+
 <br>
 
 > git has now become your safe haven. Fear push no more. Control the entire lifecycle of your git project from pre commit messages to post merge automation.
