@@ -4,7 +4,7 @@
 <h1 align="center">hooked</h1>
 <h2 align="center">A github hooks manager</h2>
 
-`STATUS`: In progress
+`STATUS`: In slow progress. Contributors needed.
 
 <br>
 
